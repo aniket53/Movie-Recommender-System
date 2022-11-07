@@ -1,0 +1,8 @@
+1. Three types of recommendation system
+    Content Based(uses tags to recommend the movie).
+    Collaborative Based(A & B are linked and recommend them on their watchings. Eg.Facebook)
+    Hybrid Based(Eg.Youtube Both Content & Colaborative)
+
+2. We have used Content Based Filtering.
+
+3. Data -> Preprocessing -> Model Bulding -> Website -> Deploy
