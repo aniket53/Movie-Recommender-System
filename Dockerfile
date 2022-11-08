@@ -4,7 +4,7 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 RUN apt-get -y update
 RUN apt-get -y install git
-RUN git lfs install
+RUN apt-get install git-lfs
 RUN git lfs pull -I similarity.pkl
 EXPOSE $PORT
 CMD ["sh","-c","streamlit run --server.port $PORT app.py"]
